@@ -1,0 +1,230 @@
+h1 {
+    font-family: 'PlayfairDisplay-BlackItalic', sans-serif;
+}
+
+h2,
+h3 {
+    font-family: 'PlayfairDisplay-Regular', sans-serif;
+}
+
+p,
+li,
+a,
+small {
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 3.25em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+p {
+    color: hsla(0, 0%, 0%, 0.8);
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.625em;
+    }
+    h3 {
+        font-size: 1.375em;
+    }
+}
+
+/* Navbar */
+
+.navbar_barberia {
+    background-color: #121619;
+    color: #ffffff;
+
+}
+
+.icon-bar {
+    background-color: #fff;
+   
+}
+
+.navbar-brand img {
+    max-width: 120px;
+    width: 70px;
+}
+
+.navbar-nav>li>a {
+    color: #686963;
+    text-shadow: none;
+}
+
+.nav>li>a:hover {
+    background-color: initial;
+    color: #ffffff;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+/* Header */
+
+.header_barberia{
+    
+    background-image: url("../img/post-image.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.header_barberia h1 {
+    color: #fff;
+    font-size: 5em;
+}
+
+.header_barberia h2 {
+    color: #fff;
+    font-size: 3em;
+}
+
+@media only screen and (max-width: 767px) {
+    .header_barberia {
+       
+        padding-top: 10px;
+        background-position: center;
+    }
+    .header_barberia h1 {
+        font-size: 3em;
+    }
+    .header_barberia h2 {
+        padding: 1rem 4rem;
+    }
+}
+
+
+
+/* Contenedor */
+.Contenedor__inner {
+    padding-left: 10vw;
+    top: 0px;
+}
+
+.Contenedor__inner h3 {
+    font-size: 3em;
+}
+
+.Contenedor__inner p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 8vw;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 767px) {
+    .Contenedor__inner {
+        padding-top: 2vh;
+        padding-left: 15vw;
+        padding-bottom: 5vh;
+    }
+    .Contenedor__inner h3 {
+        font-size: 2em;
+    }
+    .Contenedor__inner_background {
+        height: 300px;
+    }
+}
+
+
+/* Button */
+
+.circulo_barberia {
+
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #707070;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.button_barberia {
+    background-color: #707070;
+    border-radius: 30px;
+    padding: 1rem 3rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button_barberia:hover {
+    background-color: hsla(227, 100%, 60%, .1);
+    color: #323333;
+}
+
+
+
+div.img__circular {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+
+
+
+
+
+/* Articulo */
+.Articulo_barberia {
+  background: #707070;
+  text-align: center;
+  height: 100px;
+  color: #d6d5d5;
+padding: 40px;
+}
+
+.Articulo_barberia h1 {
+  color: #fff;
+  font-size: 5em;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .Articulo_barberia {
+      height: 50px;
+      padding-top: 10px;
+      background-position: center;
+  }
+  .Articulo_barberia h1 {
+      font-size: 3em;
+  }
+}
+
+
+/* Footer */
+.footer_barberia {
+    background-color:#121219;
+    padding: 2vw 1rem;
+    text-align: center;
+}
+
